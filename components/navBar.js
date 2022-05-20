@@ -10,16 +10,9 @@ export default function NavBar() {
               <li>Index</li>
             </a>
           </Link>
-
           <Link href="/todos">
             <a>
-              <li>Todos</li>
-            </a>
-          </Link>
-
-          <Link href="/csr">
-            <a>
-              <li>CSR</li>
+              <li>Todos (CSR)</li>
             </a>
           </Link>
 
