@@ -1,3 +1,44 @@
 .todosContainer {
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todosContainer .input {
+  padding: 0.7rem;
+  font-size: large;
+  margin-bottom: 1rem;
+}
+
+.todosContainer .button {
+  background-color: rgb(57, 57, 219);
+  border: none;
+  color: rgb(235, 226, 226);
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.todosContainer .todosList {
+  border: 1px solid blue;
+  width: 50%;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.todosContainer .todosList .todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todosContainer .todosList .todo .deleteBtn {
+  background-color: rgb(221, 69, 22);
+  border: none;
+  color: rgb(235, 226, 226);
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
 }
