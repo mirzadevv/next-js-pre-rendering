@@ -1,0 +1,22 @@
+.postContainer {
+  padding: 2rem;
+}
+
+.postContainer .item {
+  margin-bottom: 2rem;
+}
+
+.postContainer h2 {
+  margin-bottom: 3rem;
+}
+
+.postContainer .title {
+  text-transform: uppercase;
+  color: rgb(5, 5, 238);
+  font-weight: bold;
+}
+
+.postContainer .value {
+  text-transform: uppercase;
+  font-weight: bold;
+}
