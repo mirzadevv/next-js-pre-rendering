@@ -1,0 +1,11 @@
+.usersContainer {
+  padding: 2rem;
+}
+
+.usersContainer span {
+  color: rgb(53, 53, 207);
+}
+
+.usersContainer h5 {
+  cursor: pointer;
+}
