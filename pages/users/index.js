@@ -1,11 +1,11 @@
 import styles from "../../styles/users.module.css";
 import Link from "next/dist/client/link";
-export default function Ssr({ users }) {
+export default function Users({ users }) {
   return (
     <>
-      <div className={styles.ssrContainer}>
+      <div className={styles.usersContainer}>
         {users.map((user) => (
-          <div>
+          <div key={user.id}>
             <Link href={`users/${user.id}`}>
               <h5>
                 <span> Name: </span> {user.name}
