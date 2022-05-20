@@ -22,9 +22,9 @@ export default function NavBar() {
             </a>
           </Link>
 
-          <Link href="/ssg">
+          <Link href="/posts">
             <a>
-              <li>Users (SSG)</li>
+              <li>Posts (SSG)</li>
             </a>
           </Link>
         </ul>
