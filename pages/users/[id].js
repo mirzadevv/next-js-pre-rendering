@@ -1,4 +1,4 @@
-import styles from "../../styles/useritem.module.css";
+import styles from "../../styles/userItem.module.css";
 export default function User({ user }) {
   return (
     <div className={styles.userContainer}>
