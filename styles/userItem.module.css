@@ -1,0 +1,22 @@
+.userContainer {
+  padding: 2rem;
+}
+
+.userContainer .item {
+  margin-bottom: 2rem;
+}
+
+.userContainer h2 {
+  margin-bottom: 3rem;
+}
+
+.userContainer .title {
+  text-transform: uppercase;
+  color: rgb(5, 5, 238);
+  font-weight: bold;
+}
+
+.userContainer .value {
+  text-transform: uppercase;
+  font-weight: bold;
+}
