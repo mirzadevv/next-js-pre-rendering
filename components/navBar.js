@@ -16,7 +16,7 @@ export default function NavBar() {
             </a>
           </Link>
 
-          <Link href="/ssr">
+          <Link href="/users">
             <a>
               <li>Users (SSR)</li>
             </a>
