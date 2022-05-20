@@ -2,7 +2,10 @@
   padding: 2rem;
 }
 
-.ssrContainer .name,
-.email {
-  color: blue;
+.ssrContainer span {
+  color: rgb(53, 53, 207);
+}
+
+.ssrContainer h5 {
+  cursor: pointer;
 }
