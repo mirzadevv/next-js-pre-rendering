@@ -1,3 +1,10 @@
 .postsContainer {
   padding: 2rem;
 }
+.postsContainer span {
+  color: rgb(53, 53, 207);
+}
+
+.postsContainer h5 {
+  cursor: pointer;
+}
