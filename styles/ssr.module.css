@@ -1,3 +1,8 @@
 .ssrContainer {
   padding: 2rem;
 }
+
+.ssrContainer .name,
+.email {
+  color: blue;
+}
