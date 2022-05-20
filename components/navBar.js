@@ -18,13 +18,13 @@ export default function NavBar() {
 
           <Link href="/ssr">
             <a>
-              <li>SSR</li>
+              <li>Users (SSR)</li>
             </a>
           </Link>
 
           <Link href="/ssg">
             <a>
-              <li>SSG</li>
+              <li>Users (SSG)</li>
             </a>
           </Link>
         </ul>
