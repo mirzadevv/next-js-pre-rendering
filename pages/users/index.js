@@ -1,4 +1,4 @@
-import styles from "../../styles/ssr.module.css";
+import styles from "../../styles/users.module.css";
 import Link from "next/dist/client/link";
 export default function Ssr({ users }) {
   return (
