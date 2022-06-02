@@ -25,6 +25,7 @@ export async function getStaticProps() {
   return {
     props: {
       posts: result,
+      revalidate: 30,
     },
   };
 }
