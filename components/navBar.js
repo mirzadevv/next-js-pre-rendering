@@ -7,12 +7,12 @@ export default function NavBar() {
         <ul>
           <Link href="/">
             <a>
-              <li>Index</li>
+              <li>Todos</li>
             </a>
           </Link>
-          <Link href="/todos">
+          <Link href="/albums">
             <a>
-              <li>Todos (CSR)</li>
+              <li>Albums (CSR)</li>
             </a>
           </Link>
 
